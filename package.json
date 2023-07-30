@@ -1,22 +1,30 @@
 {
   "name": "cli-calculator",
   "version": "1.0.0",
-  "description": "CLI Calculator in ts",
+  "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "typescript"
-  ],
-  "author": "Abdullah Bin Amir",
-  "license": "ISC",
-  "dependencies": {
-    "@types/inquirer": "^9.0.3",
-    "inquirer": "^9.2.9"
+  "type": "module" ,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdullahBinAmir/CLI-Calculator.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbdullahBinAmir/CLI-Calculator/issues"
+  },
+  "homepage": "https://github.com/AbdullahBinAmir/CLI-Calculator#readme",
   "devDependencies": {
-    "@types/node": "^20.4.5"
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.9"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.9"
   }
 }
