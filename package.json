@@ -1,9 +1,10 @@
 {
-  "name": "cli-calculator",
-  "version": "1.0.0",
+  "name": "binamir-calculator",
+  "version": "1.1.8",
   "description": "",
   "main": "src/index.js",
   "type": "module",
+  "bin": "./src/index.js",
   "scripts": {
     "start": "node .",
     "build": "tsc"
@@ -26,6 +27,7 @@
     "@types/node": "^18.11.9"
   },
   "dependencies": {
+    "binamir-calculator": "^1.1.8",
     "chalk": "^5.3.0",
     "chalk-animation": "^2.0.3",
     "inquirer": "^9.2.9"
